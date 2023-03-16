@@ -1,0 +1,54 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the C compiler works failed with the following output:
+Change Dir: /datasets/home/home-00/08/208/pychen/playground/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a5c0c/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake cmTC_a5c0c/fast && 
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /datasets/home/home-00/08/208/pychen/playground/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_54dae/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake cmTC_54dae/fast && 
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /datasets/home/home-00/08/208/pychen/playground/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cf11b/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake cmTC_cf11b/fast && 
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /datasets/home/home-00/08/208/pychen/playground/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2f5e5/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake cmTC_2f5e5/fast && 
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /datasets/home/home-00/08/208/pychen/playground/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a5909/fast && No such file or directory
+Generator: execution of make failed. Make command was: /usr/bin/gmake cmTC_a5909/fast && 
+
+
