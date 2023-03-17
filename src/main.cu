@@ -80,8 +80,6 @@ __global__ void parallel(char* ref, char* query, int refLen, int queryLen, int* 
             // VI
             if (j > 0)
             {
-                //a = DELTA * *(VM+refLen*(i-1)+j);
-                //b = EPSILON * *(VI+refLen*(i-1)+j);
                 a = DELTA * *(VM+refLen*i+(j-1));
                 b = EPSILON * *(VI+refLen*i+(j-1));
                 currI = GAP * MAX(a, b);
