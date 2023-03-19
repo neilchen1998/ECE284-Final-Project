@@ -36,3 +36,26 @@ ECE284-Final-Project/run-commands.sh
 ```
 
 The default length of the test dataset is 128, the user can select a different length of test dataset by modifying the command line in *run-commands.sh*, just like what we do in the assignment.
+
+## Sample Output
+
+The following is a sample output that the user might get when he runs our code.
+
+```
+*** Info ***
+lenSelect: 128
+ref sequence: AAAATTGAGATAAGAAAACATTTTTTCAAAATTGTTTTCATGCTAAATTCAAAACGCTCGTCACAAAATTGAGATAAGAAAACATTTTTTCAAAATTGTTTTCATGCTAAATTCAAAACGCTCGTCAC
+qry sequence: AAAATTGAGATAAGAAAACATTTTTTCAAAATTGTTTAACGCTCGTCACAAAATTGTCATGCTAAATTCAAAGATAAGAAAACATTTTTTCAAAATTGTTTTCATGCTAAATTCAAAACGGAAAACGC
+*** Info End ***
+*** Performance Result ***
+The kernel ran in: 0.2058 msecs.
+The code code ran in: 1.1291 msecs. (end-to-end)
+*** Performance End ***
+*** Identities ***
+108/128 (84.38%)
+*** Identities End ***
+*** Alignment Result ***
+AAAATTGAGATAAGAAAACATTTTTTCAAAATTGTTT-T-CATGCT-A-AAT-T-CAAAA-C-GCTC-GT-C-ACAAAATT---GAGATAAGAAAACATTTTTTCAAAATTGTTTTCATGCTAAATTCAAAACG-C-T-C-G-TC-AC
+AAAATTGAGATAAGAAAACATTTTTTCAAAATTGTTTA-AC--GCTC-G--TC-ACAAAAT-TG-TCA-TGCTA-AA--TTCAA-AGATAAGAAAACATTTTTTCAAAATTGTTTTCATGCTAAATTCAAAACGG-A-A-A-A-CG-C
+*** Alignment End ***
+```
