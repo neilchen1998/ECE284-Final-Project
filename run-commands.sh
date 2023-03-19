@@ -14,4 +14,6 @@ cd build
 #export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${PWD}/tbb_cmake_build/tbb_cmake_build_subdir_release
 
 ## basic run command
-./main 16 1
+# argv[1]: the length of the sequences
+# argv[2]: the type (0: viterbi, 1: parallel)
+./main 128 1
